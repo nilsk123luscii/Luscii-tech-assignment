@@ -15,8 +15,7 @@ class EpisodePagingSource(
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, Episode> {
 
         val page = params.key ?: 1
-        Log.e("EpisodePagingSource", "Loading page: $page")
-        delay(2000L)
+        
         val response = api.getEpisodes(page)
         return when (response) {
             is NetworkResponse.Success -> {
