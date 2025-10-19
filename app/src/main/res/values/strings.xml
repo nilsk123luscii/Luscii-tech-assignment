@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tech Assignment</string>
+    <string name="exception_error_unexpected">An unexpected error occurred</string>
+    <string name="exception_error_network">A network error occurred</string>
+    <string name="exception_error_unknown">An unknown error occurred</string>
+    <string name="episode_list_end_reached">No more episodes</string>
+    <string name="misc_export_succeeded">Character exported to Downloads</string>
+    <string name="character_load_failed_error">Something went wrong while loading character details.</string>
+    <string name="character_save_serialized_file">Save character to file</string>
+</resources>
